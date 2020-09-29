@@ -4,12 +4,12 @@ import Card from "../Card/Card";
 import { projects } from "../../data";
 
 function Cards() {
-  console.log(projects.length);
   return (
     <div className="cards">
       {projects.length !== 0 &&
         projects?.map((project) => (
           <Card
+            key={project.id}
             image={project.image}
             languages={project.languages}
             title={project.title}
@@ -17,7 +17,6 @@ function Cards() {
             demo={project.demo}
           />
         ))}
-      <Card />
     </div>
   );
 }

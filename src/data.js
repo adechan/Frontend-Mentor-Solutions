@@ -8,6 +8,7 @@ import SocialProofSection from "./assets/social-proof-section.jpg";
 
 export const projects = [
   {
+    id: 0,
     image: SocialMediaDashboard,
     languages: ["React"],
     title: "Social Media Dashboard with Theme Switcher",
@@ -16,6 +17,7 @@ export const projects = [
     demo: "https://social-media-dashboard-f439f.web.app/",
   },
   {
+    id: 1,
     image: SocialProofSection,
     languages: ["React"],
     title: "Social Proof Section",
@@ -24,6 +26,7 @@ export const projects = [
     demo: "https://social-proof-section-8a614.web.app/",
   },
   {
+    id: 2,
     image: BaseApparelComingSoonPage,
     languages: ["HTML", "CSS", "JS"],
     title: "Base Apparel Coming Soon Page",
@@ -33,6 +36,7 @@ export const projects = [
       "https://adechan.github.io/Frontend-Mentor-Challenges/Base-Apparel-Coming-Soon-Page/",
   },
   {
+    id: 3,
     image: FourCardFeatureSection,
     languages: ["HTML", "CSS"],
     title: "Four Card Feature Section",
@@ -42,6 +46,7 @@ export const projects = [
       "https://adechan.github.io/Frontend-Mentor-Challenges/Four-Card-Feature-Section/",
   },
   {
+    id: 4,
     image: CodingBootcampTestimonialsSliderMaster,
     languages: ["HTML", "CSS", "JS"],
     title: "Coding Bootcamp Testimonials Slider",
@@ -51,6 +56,7 @@ export const projects = [
       "https://adechan.github.io/Frontend-Mentor-Challenges/Coding-Bootcamp-Testimonials-Slider-Master/",
   },
   {
+    id: 5,
     image: ArticlePreviewComponent,
     languages: ["HTML", "CSS", "JS"],
     title: "Article Preview Component",
@@ -60,6 +66,7 @@ export const projects = [
       "https://adechan.github.io/Frontend-Mentor-Challenges/Article-Preview-Component/",
   },
   {
+    id: 6,
     image: FyloDataStorageComponent,
     languages: ["HTML", "CSS"],
     title: "Fylo Data Storage Component",

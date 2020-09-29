@@ -7,3 +7,10 @@
 
   background-color: #fafafa;
 }
+
+@media (max-width: 551px) {
+  .app {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}

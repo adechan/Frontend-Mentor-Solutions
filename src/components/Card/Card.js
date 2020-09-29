@@ -6,34 +6,32 @@ function Card({ image, languages, title, githubUrl, demo }) {
   return (
     <div className="card">
       <img className="card__image" src={image} alt="" />
-      <div className="card__infoContainer">
-        <div className="card__languages">
-          {languages?.map((language) => (
-            <p
-              className={
-                "card__language " +
-                (language === "HTML"
-                  ? "HTML"
-                  : language === "CSS"
-                  ? "CSS"
-                  : language === "JS"
-                  ? "JS"
-                  : language === "React"
-                  ? "React"
-                  : "none")
-              }
-            >
-              {language}
-            </p>
-          ))}
-        </div>
-        <h3 className="card__title">{title}</h3>
-        <div className="card__info">
-          <a href={githubUrl}>
-            <img src={github} alt="" />
-          </a>
-          <a href={demo}>Demo </a>
-        </div>
+      <div className="card__languages">
+        {languages?.map((language) => (
+          <p
+            className={
+              "card__language " +
+              (language === "HTML"
+                ? "HTML"
+                : language === "CSS"
+                ? "CSS"
+                : language === "JS"
+                ? "JS"
+                : language === "React"
+                ? "React"
+                : "none")
+            }
+          >
+            {language}
+          </p>
+        ))}
+      </div>
+      <h3 className="card__title">{title}</h3>
+      <div className="card__info">
+        <a href={githubUrl}>
+          <img src={github} alt="" />
+        </a>
+        <a href={demo}>Demo</a>
       </div>
     </div>
   );

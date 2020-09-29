@@ -3,6 +3,13 @@
   flex-direction: column;
 }
 
+@media (max-width: 551px) {
+  .header {
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+}
+
 .header > h2 {
   color: #2d3440;
 }
