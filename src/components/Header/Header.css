@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header > h2 {
+  color: #2d3440;
+}
+
+.header > p {
+  color: #7a8195;
+}

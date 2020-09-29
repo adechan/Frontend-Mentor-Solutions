@@ -1,0 +1,84 @@
+.card {
+  width: 350px;
+  height: 410px;
+  background-color: white;
+  border: 1px solid #dbe5e6;
+  border-radius: 5px;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  object-fit: contain;
+
+  border-bottom: 1px solid #dbe5e6;
+  transition: transform 0.5s ease;
+}
+
+.card__infoContainer {
+  height: calc(100% - 270px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card__image:hover {
+  transform: scale(1.08);
+}
+
+.card__languages {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.HTML {
+  color: #6cbfce;
+}
+
+.CSS {
+  color: #4b60a9;
+}
+
+.JS {
+  color: #e13985;
+}
+
+.React {
+  color: #5ed3f3;
+}
+
+.card__languages > p {
+  font-size: 14px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.card__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #2d3440;
+  font-size: 15px;
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card__info > img {
+  object-fit: contain;
+  height: 30px;
+  cursor: pointer;
+}
+
+.card__info > p {
+  font-weight: 300;
+  color: #8d8d8d;
+  cursor: pointer;
+}
