@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <div className="header">
       <h2>Frontend Mentor Challenges Solutions</h2>
-      <p>Created by Ade ❤️</p>
+      <p>
+        Created by <a href="https://github.com/adechan">Ade</a> ❤️
+      </p>
     </div>
   );
 }
