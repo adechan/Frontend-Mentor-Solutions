@@ -17,7 +17,7 @@ function Card({ image, languages, title, githubUrl, demo }) {
                 ? "CSS"
                 : language === "JS"
                 ? "JS"
-                : language === "React"
+                : language === "ReactJS"
                 ? "React"
                 : "none")
             }

@@ -10,7 +10,7 @@ export const projects = [
   {
     id: 0,
     image: SocialMediaDashboard,
-    languages: ["React"],
+    languages: ["ReactJS"],
     title: "Social Media Dashboard with Theme Switcher",
     githubUrl:
       "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/social-media-dashboard",
@@ -19,7 +19,7 @@ export const projects = [
   {
     id: 1,
     image: SocialProofSection,
-    languages: ["React"],
+    languages: ["ReactJS"],
     title: "Social Proof Section",
     githubUrl:
       "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/social-proof-section",
