@@ -29,8 +29,10 @@ function Card({ image, languages, title, githubUrl, demo }) {
         </div>
         <h3 className="card__title">{title}</h3>
         <div className="card__info">
-          <img src={github} alt="" />
-          <p>Demo </p>
+          <a href={githubUrl}>
+            <img src={github} alt="" />
+          </a>
+          <a href={demo}>Demo </a>
         </div>
       </div>
     </div>
