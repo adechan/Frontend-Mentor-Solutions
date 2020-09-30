@@ -5,7 +5,7 @@ import Header from "./components/Header/Header";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { mentorProjects, reactjsProjects } from "./data";
+import { mentorProjects, reactjsProjects, projects } from "./data";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
 
           <Route path="/">
             <Header />
-            <Cards projects={mentorProjects} />
+            <Cards projects={projects} />
           </Route>
         </Switch>
       </div>
