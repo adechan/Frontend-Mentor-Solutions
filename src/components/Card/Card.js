@@ -19,6 +19,8 @@ function Card({ image, languages, title, githubUrl, demo }) {
                 ? "JS"
                 : language === "ReactJS"
                 ? "React"
+                : language === "Firebase"
+                ? "Firebase"
                 : "none")
             }
           >

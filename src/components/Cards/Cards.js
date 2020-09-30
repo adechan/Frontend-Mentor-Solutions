@@ -1,12 +1,11 @@
 import React from "react";
 import "./Cards.css";
 import Card from "../Card/Card";
-import { projects } from "../../data";
 
-function Cards() {
+function Cards({ projects }) {
   return (
     <div className="cards">
-      {projects.length !== 0 &&
+      {projects?.length !== 0 &&
         projects?.map((project) => (
           <Card
             key={project.id}

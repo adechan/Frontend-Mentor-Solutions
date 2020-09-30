@@ -3,12 +3,32 @@ import "./App.css";
 import Cards from "./components/Cards/Cards";
 import Header from "./components/Header/Header";
 
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { mentorProjects, reactjsProjects } from "./data";
+
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <Cards />
-    </div>
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path="/reactjs-projects">
+            <Header />
+            <Cards projects={reactjsProjects} />
+          </Route>
+
+          <Route path="/mentor-projects">
+            <Header />
+            <Cards projects={mentorProjects} />
+          </Route>
+
+          <Route path="/">
+            <Header />
+            <Cards projects={mentorProjects} />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -1,24 +1,45 @@
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 551px) {
   .header {
     padding-left: 5vh;
     padding-right: 5vh;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
-.header > h2 {
+.header__titleInfo > h2 {
   color: #2d3440;
 }
 
-.header > p {
+.header__titleInfo > p {
   color: #7a8195;
 }
 
-.header a {
-  text-decoration: none;
-  color: inherit;
+.header__options {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  color: #7a8195;
+}
+
+.header__options p {
+  margin-right: 20px;
+}
+
+.header__options p:hover {
+  color: #2d3440;
+  font-weight: 500;
 }
