@@ -51,6 +51,7 @@
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
+  flex-wrap: wrap;
 }
 
 .HTML {
@@ -71,6 +72,11 @@
 
 .Firebase {
   color: #f6be00;
+}
+
+.none {
+  color: #959aa7;
+  font-weight: 400 !important;
 }
 
 .card__languages > p {

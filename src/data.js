@@ -20,7 +20,7 @@ export const mentorProjects = [
   {
     id: 6,
     image: SocialMediaDashboard,
-    languages: ["ReactJS"],
+    languages: ["ReactJS", "React Context API"],
     title: "Social Media Dashboard with Theme Switcher",
     githubUrl:
       "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/social-media-dashboard",
@@ -91,7 +91,7 @@ export const reactjsProjects = [
   {
     id: 10,
     image: SocialMediaDashboard,
-    languages: ["ReactJS"],
+    languages: ["ReactJS", "React Context API"],
     title: "Social Media Dashboard with Theme Switcher",
     githubUrl:
       "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/social-media-dashboard",
@@ -109,7 +109,13 @@ export const reactjsProjects = [
   {
     id: 8,
     image: Spotify,
-    languages: ["ReactJS", "Firebase"],
+    languages: [
+      "ReactJS",
+      "Firebase",
+      "Spotify API",
+      "React Context API",
+      "spotify-web-api-js",
+    ],
     title: "Spotify Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/spotify-clone",
@@ -118,7 +124,7 @@ export const reactjsProjects = [
   {
     id: 7,
     image: TikTok,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-ticker", "useRef hook"],
     title: "Tik Tok Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/tiktok-clone",
@@ -127,7 +133,7 @@ export const reactjsProjects = [
   {
     id: 6,
     image: Tinder,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-tinder-card", "useHistory hook"],
     title: "Tinder Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/tinder-clone",
@@ -136,7 +142,7 @@ export const reactjsProjects = [
   {
     id: 5,
     image: Amazon,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "React Context API", "React Router"],
     title: "Amazon Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/amazon-clone",
@@ -145,7 +151,14 @@ export const reactjsProjects = [
   {
     id: 4,
     image: Netflix,
-    languages: ["ReactJS", "Firebase"],
+    languages: [
+      "ReactJS",
+      "Firebase",
+      "TMDB",
+      "axios",
+      "movie-trailer",
+      "react-youtube",
+    ],
     title: "Netflix Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/netflix-clone",
@@ -154,7 +167,7 @@ export const reactjsProjects = [
   {
     id: 3,
     image: Instagram,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-instagram-embed"],
     title: "Instagram Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/instagram-clone",
@@ -163,7 +176,7 @@ export const reactjsProjects = [
   {
     id: 2,
     image: Messenger,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-flipmove"],
     title: "Facebook Messenger Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/facebook-messenger-clone",
@@ -192,7 +205,13 @@ export const projects = [
   {
     id: 15,
     image: Spotify,
-    languages: ["ReactJS", "Firebase"],
+    languages: [
+      "ReactJS",
+      "Firebase",
+      "Spotify API",
+      "React Context API",
+      "spotify-web-api-js",
+    ],
     title: "Spotify Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/spotify-clone",
@@ -201,7 +220,7 @@ export const projects = [
   {
     id: 14,
     image: TikTok,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-ticker", "useRef hook"],
     title: "Tik Tok Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/tiktok-clone",
@@ -210,7 +229,7 @@ export const projects = [
   {
     id: 13,
     image: Tinder,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-tinder-card", "useHistory hook"],
     title: "Tinder Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/tinder-clone",
@@ -219,7 +238,7 @@ export const projects = [
   {
     id: 12,
     image: Amazon,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "React Context API", "React Router"],
     title: "Amazon Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/amazon-clone",
@@ -228,7 +247,14 @@ export const projects = [
   {
     id: 11,
     image: Netflix,
-    languages: ["ReactJS", "Firebase"],
+    languages: [
+      "ReactJS",
+      "Firebase",
+      "TMDB",
+      "axios",
+      "movie-trailer",
+      "react-youtube",
+    ],
     title: "Netflix Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/netflix-clone",
@@ -237,7 +263,7 @@ export const projects = [
   {
     id: 10,
     image: Instagram,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-instagram-embed"],
     title: "Instagram Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/instagram-clone",
@@ -246,7 +272,7 @@ export const projects = [
   {
     id: 9,
     image: Messenger,
-    languages: ["ReactJS", "Firebase"],
+    languages: ["ReactJS", "Firebase", "react-flipmove"],
     title: "Facebook Messenger Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/facebook-messenger-clone",
@@ -272,7 +298,7 @@ export const projects = [
   {
     id: 6,
     image: SocialMediaDashboard,
-    languages: ["ReactJS"],
+    languages: ["ReactJS", "React Context API"],
     title: "Social Media Dashboard with Theme Switcher",
     githubUrl:
       "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/social-media-dashboard",
