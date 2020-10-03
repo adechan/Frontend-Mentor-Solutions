@@ -5,6 +5,7 @@ import FourCardFeatureSection from "./assets/four-card-feature-section.jpg";
 import FyloDataStorageComponent from "./assets/fylo-data-storage-component.jpg";
 import SocialMediaDashboard from "./assets/social-media-dashboard.jpg";
 import SocialProofSection from "./assets/social-proof-section.jpg";
+import InsureLandingPage from "./assets/insure-landing-page.jpg";
 
 import Spotify from "./assets/spotify.jpg";
 import TikTok from "./assets/tiktok.jpg";
@@ -17,6 +18,15 @@ import BasicTodo from "./assets/basictodo.jpg";
 import BasicCalculator from "./assets/basiccalculator.jpg";
 
 export const mentorProjects = [
+  {
+    id: 7,
+    image: InsureLandingPage,
+    languages: ["ReactJS"],
+    title: "Insure Landing Page",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/insure-landing-page",
+    demo: "https://insure-landing-page.web.app/",
+  },
   {
     id: 6,
     image: SocialMediaDashboard,
@@ -88,6 +98,15 @@ export const mentorProjects = [
 ];
 
 export const reactjsProjects = [
+  {
+    id: 11,
+    image: InsureLandingPage,
+    languages: ["ReactJS"],
+    title: "Insure Landing Page",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/insure-landing-page",
+    demo: "https://insure-landing-page.web.app/",
+  },
   {
     id: 10,
     image: SocialMediaDashboard,
@@ -202,6 +221,15 @@ export const reactjsProjects = [
 ];
 
 export const projects = [
+  {
+    id: 16,
+    image: InsureLandingPage,
+    languages: ["ReactJS"],
+    title: "Insure Landing Page",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/insure-landing-page",
+    demo: "https://insure-landing-page.web.app/",
+  },
   {
     id: 15,
     image: Spotify,
