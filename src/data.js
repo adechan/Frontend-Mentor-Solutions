@@ -7,6 +7,7 @@ import SocialMediaDashboard from "./assets/social-media-dashboard.jpg";
 import SocialProofSection from "./assets/social-proof-section.jpg";
 import InsureLandingPage from "./assets/insure-landing-page.jpg";
 
+import Discord from "./assets/discord.jpg";
 import Spotify from "./assets/spotify.jpg";
 import TikTok from "./assets/tiktok.jpg";
 import Tinder from "./assets/tinder.jpg";
@@ -98,6 +99,15 @@ export const mentorProjects = [
 ];
 
 export const reactjsProjects = [
+  {
+    id: 12,
+    image: Discord,
+    languages: ["ReactJs", "Firebase", "Redux"],
+    title: "Discord Clone",
+    githubUrl:
+      "https://github.com/adechan/React-Applications/tree/master/discord-clone",
+    demo: "https://discord-clone-70ddd.web.app/",
+  },
   {
     id: 11,
     image: InsureLandingPage,
