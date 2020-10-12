@@ -102,7 +102,7 @@ export const reactjsProjects = [
   {
     id: 12,
     image: Discord,
-    languages: ["ReactJs", "Firebase", "Redux"],
+    languages: ["ReactJS", "Firebase", "Redux"],
     title: "Discord Clone",
     githubUrl:
       "https://github.com/adechan/React-Applications/tree/master/discord-clone",
