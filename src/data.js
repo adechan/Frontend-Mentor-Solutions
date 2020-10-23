@@ -6,6 +6,7 @@ import FyloDataStorageComponent from "./assets/fylo-data-storage-component.jpg";
 import SocialMediaDashboard from "./assets/social-media-dashboard.jpg";
 import SocialProofSection from "./assets/social-proof-section.jpg";
 import InsureLandingPage from "./assets/insure-landing-page.jpg";
+import PricePage from "./assets/price-component.jpg";
 
 import Discord from "./assets/discord.jpg";
 import Spotify from "./assets/spotify.jpg";
@@ -19,6 +20,15 @@ import BasicTodo from "./assets/basictodo.jpg";
 import BasicCalculator from "./assets/basiccalculator.jpg";
 
 export const mentorProjects = [
+  {
+    id: 8,
+    image: PricePage,
+    languages: ["ReactJS", "Redux"],
+    title: "Price Component",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/pricing-component",
+    demo: "https://pricing-component-7a170.web.app/",
+  },
   {
     id: 7,
     image: InsureLandingPage,
@@ -99,6 +109,15 @@ export const mentorProjects = [
 ];
 
 export const reactjsProjects = [
+  {
+    id: 13,
+    image: PricePage,
+    languages: ["ReactJS", "Redux"],
+    title: "Price Component",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/pricing-component",
+    demo: "https://pricing-component-7a170.web.app/",
+  },
   {
     id: 12,
     image: Discord,
@@ -231,6 +250,15 @@ export const reactjsProjects = [
 ];
 
 export const projects = [
+  {
+    id: 17,
+    image: PricePage,
+    languages: ["ReactJS", "Redux"],
+    title: "Price Component",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/pricing-component",
+    demo: "https://pricing-component-7a170.web.app/",
+  },
   {
     id: 16,
     image: InsureLandingPage,
