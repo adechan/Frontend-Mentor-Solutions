@@ -7,6 +7,7 @@ import SocialMediaDashboard from "./assets/social-media-dashboard.jpg";
 import SocialProofSection from "./assets/social-proof-section.jpg";
 import InsureLandingPage from "./assets/insure-landing-page.jpg";
 import PricePage from "./assets/price-component.jpg";
+import PingComingSoonPage from "./assets/ping-coming-soon-page.jpg";
 
 import Discord from "./assets/discord.jpg";
 import Spotify from "./assets/spotify.jpg";
@@ -20,6 +21,15 @@ import BasicTodo from "./assets/basictodo.jpg";
 import BasicCalculator from "./assets/basiccalculator.jpg";
 
 export const mentorProjects = [
+  {
+    id: 9,
+    image: PingComingSoonPage,
+    languages: ["ReactJS"],
+    title: "Ping Coming Soon Page",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/ping-coming-soon-page",
+    demo: "https://ping-coming-soon-page.web.app/",
+  },
   {
     id: 8,
     image: PricePage,
@@ -250,6 +260,15 @@ export const reactjsProjects = [
 ];
 
 export const projects = [
+  {
+    id: 18,
+    image: PingComingSoonPage,
+    languages: ["ReactJS"],
+    title: "Ping Coming Soon Page",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/ping-coming-soon-page",
+    demo: "https://ping-coming-soon-page.web.app/",
+  },
   {
     id: 17,
     image: PricePage,
