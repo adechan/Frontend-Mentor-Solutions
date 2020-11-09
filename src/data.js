@@ -8,6 +8,7 @@ import SocialProofSection from "./assets/social-proof-section.jpg";
 import InsureLandingPage from "./assets/insure-landing-page.jpg";
 import PricePage from "./assets/price-component.jpg";
 import PingComingSoonPage from "./assets/ping-coming-soon-page.jpg";
+import TestimonialsGridSection from "./assets/testimonials-grid-section";
 
 import Discord from "./assets/discord.jpg";
 import Spotify from "./assets/spotify.jpg";
@@ -21,6 +22,15 @@ import BasicTodo from "./assets/basictodo.jpg";
 import BasicCalculator from "./assets/basiccalculator.jpg";
 
 export const mentorProjects = [
+  {
+    id: 9,
+    image: TestimonialsGridSection,
+    languages: ["ReactJS"],
+    title: "Testimonials Grid Section",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/testimonials-grid-section",
+    demo: "https://testimonials-grid-section.web.app/",
+  },
   {
     id: 9,
     image: PingComingSoonPage,
@@ -119,6 +129,15 @@ export const mentorProjects = [
 ];
 
 export const reactjsProjects = [
+  {
+    id: 14,
+    image: TestimonialsGridSection,
+    languages: ["ReactJS"],
+    title: "Testimonials Grid Section",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/testimonials-grid-section",
+    demo: "https://testimonials-grid-section.web.app/",
+  },
   {
     id: 13,
     image: PricePage,
@@ -260,6 +279,15 @@ export const reactjsProjects = [
 ];
 
 export const projects = [
+  {
+    id: 19,
+    image: TestimonialsGridSection,
+    languages: ["ReactJS"],
+    title: "Testimonials Grid Section",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/testimonials-grid-section",
+    demo: "https://testimonials-grid-section.web.app/",
+  },
   {
     id: 18,
     image: PingComingSoonPage,
