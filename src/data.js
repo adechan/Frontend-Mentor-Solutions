@@ -8,7 +8,7 @@ import SocialProofSection from "./assets/social-proof-section.jpg";
 import InsureLandingPage from "./assets/insure-landing-page.jpg";
 import PricePage from "./assets/price-component.jpg";
 import PingComingSoonPage from "./assets/ping-coming-soon-page.jpg";
-import TestimonialsGridSection from "./assets/testimonials-grid-section";
+import TestimonialsGridSection from "./assets/testimonials-grid-section.jpg";
 
 import Discord from "./assets/discord.jpg";
 import Spotify from "./assets/spotify.jpg";
