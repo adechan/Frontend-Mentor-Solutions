@@ -23,7 +23,7 @@ import BasicCalculator from "./assets/basiccalculator.jpg";
 
 export const mentorProjects = [
   {
-    id: 9,
+    id: 10,
     image: TestimonialsGridSection,
     languages: ["ReactJS"],
     title: "Testimonials Grid Section",
