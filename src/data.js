@@ -9,6 +9,7 @@ import InsureLandingPage from "./assets/insure-landing-page.jpg";
 import PricePage from "./assets/price-component.jpg";
 import PingComingSoonPage from "./assets/ping-coming-soon-page.jpg";
 import TestimonialsGridSection from "./assets/testimonials-grid-section.jpg";
+import ProfileCardComponent from "./assets/profile-card-component.jpg";
 
 import Discord from "./assets/discord.jpg";
 import Spotify from "./assets/spotify.jpg";
@@ -22,6 +23,15 @@ import BasicTodo from "./assets/basictodo.jpg";
 import BasicCalculator from "./assets/basiccalculator.jpg";
 
 export const mentorProjects = [
+  {
+    id: 11,
+    image: ProfileCardComponent,
+    languages: ["ReactJS"],
+    title: "Profile Card Component",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/profile-card-component",
+    demo: "https://profile-card-component.web.app/",
+  },
   {
     id: 10,
     image: TestimonialsGridSection,
