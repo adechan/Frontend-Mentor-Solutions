@@ -290,6 +290,15 @@ export const reactjsProjects = [
 
 export const projects = [
   {
+    id: 20,
+    image: ProfileCardComponent,
+    languages: ["ReactJS"],
+    title: "Profile Card Component",
+    githubUrl:
+      "https://github.com/adechan/Frontend-Mentor-Challenges/tree/master/profile-card-component",
+    demo: "https://profile-card-component.web.app/",
+  },
+  {
     id: 19,
     image: TestimonialsGridSection,
     languages: ["ReactJS"],
